@@ -17,7 +17,6 @@ class PlaylistsController < ApplicationController
     if @playlist.save
       redirect_to @playlist
     else
-      # Run validations, not empty! -> Added in model
       render :new
     end
   end
