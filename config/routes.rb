@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'spotify/search'
+
   ### This will create routes for us to interact with
   resources :tracks
   resources :playlists
