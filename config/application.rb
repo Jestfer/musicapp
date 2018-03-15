@@ -1,6 +1,7 @@
 require_relative 'boot'
 
 require 'rails/all'
+require 'rspotify'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -14,5 +15,6 @@ module Musicapp
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    RSpotify::authenticate('spotify_client_id', 'spotify_client_secret')
   end
 end
