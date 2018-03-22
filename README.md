@@ -1,24 +1,5 @@
-# README
+# musicapp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A music app built in RoR. It connects to the spotify API and the user can perform queries directly to retrieve information about their favorite songs!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[TBC]

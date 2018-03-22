@@ -1,4 +1,7 @@
 class PlaylistsController < ApplicationController
+  # This executes before routing
+  before_action :authenticate_user!
+  
   def index
     @playlists = Playlist.all
   end
